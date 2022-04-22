@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=16.0.0 < 17"
+  },
   "name": "slack-read-marker",
   "version": "1.0.0",
   "description": "Mark specified channels as read, automatically",
@@ -12,7 +15,6 @@
   "dependencies": {
     "@slack/bolt": "^3.11.0",
     "@slack/web-api": "^6.7.1",
-    "dotenv": "^16.0.0",
-    "dotenv-safe": "^8.2.0"
+    "dotenv": "^16.0.0"
   }
 }
