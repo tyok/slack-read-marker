@@ -12,5 +12,3 @@ You have to manually list the channels you want to auto-read. Yeah, I know.
 1. Go to "OAuth & Permissions" page of your app and copy the user OAuth token for the `SLACK_TOKEN` env var.
 1. Now you need to install (or reinstall) your app. Just click the button below the OAuth token.
 1. Deploy your slack app and fill in the env var copied from the previous steps.
-
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftyok%2Fslack-read-marker&env=SLACK_TOKEN,SLACK_APP_TOKEN,SLACK_SIGNING_SECRET,SLACK_SOCKET_MODE,SLACK_CHANNELS&envDescription=Set%20SLACK_SOCKET_MODE%20to%20true.%20Fill%20SLACK_CHANNELS%20with%20the%20channel%20names%20you%20want%20to%20auto-read%2C%20separated%20by%20comma%2Fspace%2Fnewlines.&project-name=slack-read-marker&repository-name=slack-read-marker)
